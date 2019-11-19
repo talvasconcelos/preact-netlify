@@ -5,8 +5,7 @@
 .pageTitle {
   position: relative;
   display: inline-block;
-  font-weight: 500;
-  font-family: serif;
+  font-weight: 700;
 }
 
 .pageTitle:after {
@@ -15,7 +14,7 @@
   left: 0px;
   content: '';
   width: 75%;
-  border-bottom: 2px solid #FFC107;
+  border-bottom: 2px solid var(--primary-color);
 }
 
 h2 {
