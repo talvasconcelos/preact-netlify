@@ -9,14 +9,11 @@ const Home = () => (
 			</div>
 			<div class={style.quote}>
 				<div class={style.details}>
-					Jane presents traditional spanish art with a modern twist. Her work is
-					excellent quality, her technique is brilliant and her love of the
-					subject matter shines through.
+				A Bitcoin é uma nova forma de dinheiro, digital e independente de governos ou corporações mundiais. É difícil de confiscar, bloquear ou inflacionar e é fácil de enviar para qualquer parte do mundo. Em comparação com os meios de pagamento tradicionais, o custo de uma transação é mínimo. Tornando-se para muitos uma opção mais viável e segura. 
 				</div>
-				<div class={style.author}>- The Local Newspaper</div>
 			</div>
 		</div>
-		<div class={style.bio}>
+		{/* <div class={style.bio}>
 			<p class={style.bioleft}>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 				eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -35,7 +32,7 @@ const Home = () => (
 				qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
 				dolorem ipsum quia dolor sit amet, consectetur.
 			</p>
-		</div>
+		</div> */}
 	</div>
 );
 
