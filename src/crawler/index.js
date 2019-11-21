@@ -2,7 +2,7 @@ const fs = require('fs');
 const { join } = require('path');
 
 function getDetails(data) {
-	const matadata = data.match(/---(.*\n)*---/)[0];
+	const matadata = data.match(/---(.*\n)*---/g)[0];
 	const details =  matadata.match(/(.*):(.*)/g).reduce((obj, detail) => {
 		const value = detail.substr(detail.indexOf(':') + 2);
 		const key = detail.substr(0, detail.indexOf(':'));
@@ -26,6 +26,7 @@ function getFolders(source) {
 	let allContent = getAllListings(source);
 	const edges = allContent.filter(isFile).map(file => {
 		const data = fs.readFileSync(file, 'utf-8');
+		// console.log('get folders', JSON.stringify(data))
 		return {
 			id: file.substr(file.lastIndexOf('/') + 1),
 			path: file,
