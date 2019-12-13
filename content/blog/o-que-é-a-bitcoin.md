@@ -2,7 +2,7 @@
 title: O que é a Bitcoin
 date: 2019-11-19T18:36:19.745Z
 subtitle: lrem
-cover: /assets/brett-jordan-1329359-unsplash.jpg
+cover: /assets/photo-1543699565-003b8adda5fc.jpg
 tags: lorem
 ---
 Bitcoin é uma rede que funciona de forma consensual onde foi possível criar uma nova forma de pagamento e também uma nova moeda completamente digital. É a primeira rede de pagamento descentralizada (ponto-a-ponto) onde os usuários é que gerem o sistema, sem necessidade de intermediários ou uma autoridade central. Da perspectiva do utilizador, a Bitcoin funciona como dinheiro para a Internet.
