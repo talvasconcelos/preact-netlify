@@ -1,7 +1,7 @@
 ---
 title: O que é a Bitcoin
 date: 2019-11-19T18:36:19.745Z
-subtitle: lrem
+subtitle: O Bitcoin é uma moeda digital, criada em 2008 por um programador com pseudónimo de Satoshi Nakamoto. Denominado também por moeda digital descentralizada, ou seja, nenhuma entidade central controla, valida ou emite a moeda.
 cover: /assets/photo-1543699565-003b8adda5fc.jpg
 tags: lorem
 ---
@@ -18,6 +18,7 @@ Ninguém! Ninguém é dono da rede Bitcoin tanto como ninguém possui a tecnolog
 Da perspectiva do utilizador, a Bitcoin não é nada mais do que um programa, aplicativo ou computador móvel que oferece uma carteira Bitcoin pessoal e permite que o usuário envie e receba bitcoins com ele. Assim é como a Bitcoin funciona para a maioria dos usuários. Nos bastidores, a rede Bitcoin partilha um registo público chamado de "cadeia de bloco" ou "blockchain". Este registo contém todas as transacções já processadas​​, permitindo que o computador do usuário verifique a validade de cada transacção. A autenticidade de cada transacção é protegida por assinaturas digitais correspondentes aos endereços enviados, permitindo que todos os usuários tenham controle total sobre o envio de bitcoins de seus próprios endereços Bitcoin. Além disso, qualquer um pode processar transacções, usando o poder de computação de hardware especializado e ganhar uma recompensa em bitcoins por este serviço. Isto é ao que se chama "mineração".
 
 ### Parece complicado...
+
 Pagamentos em Bitcoin são mais fáceis de fazer do que compras feitas com cartão de crédito ou débito, e podem ser recebidos sem uma conta de comerciante. Os pagamentos são feitos a partir de uma aplicação de carteira, seja no seu computador ou smartphone, usando o endereço do destinatário, o valor do pagamento e clicando em enviar. Para tornar mais fácil de inserir o endereço de um destinatário, muitas carteiras podem obter o endereço por digitalização de um código QR ​​ou através da tecnologia NFC quando disponível.
 
 ### Quais são as vantagens ?
@@ -27,6 +28,7 @@ Pagamentos em Bitcoin são mais fáceis de fazer do que compras feitas com cart�
 - Menos riscos para os comerciantes - As transações de Bitcoin são seguras, irreversíveis, e não contêm informações confidenciais ou pessoais dos clientes. Isto protege os comerciantes de perdas causadas por fraude ou estornos fraudulentos, e não há necessidade de conformidade com o PCI. Os comerciantes podem facilmente expandir para novos mercados, onde os cartões de crédito não estão disponíveis ou taxas de fraude são inaceitavelmente elevadas. Os resultados líquidos são taxas mais baixas, os maiores mercados e menos custos administrativos.
 - Segurança e controle - Os utilizadores do Bitcoin tem controle total de suas transacções; é impossível que os comerciantes forcem cobranças indesejadas ou não notificadas como poderia ocorrer com outras formas de pagamento. Os pagamentos com Bitcoin podem ser realizados sem vincular informações pessoais à transacção. Isto oferece forte protecção contra roubo de identidade. Os utilizadores da Bitcoin também podem proteger o seu dinheiro com cópias de segurança e criptografia.
 - Transparente e neutra - Toda a informação a respeito da oferta monetária do Bitcoin em si está prontamente disponível na blockchain para qualquer pessoa verificar e utilizar em tempo real. Nenhum indivíduo ou organização pode controlar ou manipular o protocolo do Bitcoin por que é criptograficamente seguro. Isso permite que o núcleo da Bitcoin seja confiável por ser completamente neutro, transparente e previsível.
+
 ### E as desvantagens ?
 
 - Grau de aceitação - Muitas pessoas ainda não têm conhecimento sobre Bitcoin ou pior, estão mal informadas. A cada dia, mais empresas aceitam bitcoin, porque acreditam nas vantagens ao fazê-lo, mas a lista continua pequena e ainda precisa crescer, a fim de beneficiar-se dos efeitos de rede.
