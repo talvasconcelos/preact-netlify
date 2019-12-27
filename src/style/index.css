@@ -2,10 +2,11 @@
 
 :root {
 	--primary-color: #ff533d;
+	--lh: 25px;
 }
 
 
-html, body {
+/* html, body {
 	height: 100%;
 	width: 100%;
 	padding: 0 1vw;
@@ -16,91 +17,135 @@ html, body {
 	color: #444;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-}
+} */
 
 * {
 	box-sizing: border-box;
 	margin: 0;
+}
+/* Typography settings (Gridlover) */
+html,
+.root {
+	height: 100%;
+	width: 100%;
+	padding: 0 1vw;
+	margin: 0;
+	font-size: 18px;
+	line-height: var(--ln);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 #app {
 	height: 100%;
 }
 
+body,
+.article {
+	background: #FAFAFA;
+	font-family: 'Muli', sans-serif;
+	font-weight: 400;
+	color: #444;
+	font-size: 1em;
+	line-height: 1.38888889em;
+	max-width: 560px;
+	margin: auto;
+}
+
+h1,
+.h1 {
+	font-size: 4.11111111em;
+	line-height: 1.01351351em;
+	margin-top: 0.33783784em;
+	margin-bottom: 0.67567568em;
+}
+
+h2,
+.h2 {
+	font-size: 2.55555556em;
+	line-height: 1.08695652em;
+	margin-top: 0.54347826em;
+	margin-bottom: 0.54347826em;
+}
+
+h3,
+.h3 {
+	font-size: 1.61111111em;
+	line-height: 1.72413793em;
+	margin-top: 0.86206897em;
+	margin-bottom: 0em;
+}
+
+h4,
+.h4 {
+	font-size: 1em;
+	line-height: 1.38888889em;
+	margin-top: 1.38888889em;
+	margin-bottom: 0em;
+}
+
+h5,
+.h5 {
+	font-size: 1em;
+	line-height: 1.38888889em;
+	margin-top: 1.38888889em;
+	margin-bottom: 0em;
+}
+
+p,
+ul,
+ol,
+pre,
+table,
+blockquote {
+	margin-top: 0em;
+	margin-bottom: 1.38888889em;
+}
+
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+	margin-top: 0em;
+	margin-bottom: 0em;
+}
+
+/* Let's make sure all's aligned */
+hr,
+.hr {
+	border: 1px solid;
+	margin: -1px 0;
+}
+
+a,
+b,
+i,
+strong,
+em,
+small,
+code {
+	line-height: 0;
+}
+
+sub,
+sup {
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sup {
+	top: -0.5em;
+}
+
+sub {
+	bottom: -0.25em;
+}
 
 a {
 	text-decoration: none;
 	color: #333;
 }
-
-html, .root {
-	font-size: 18px;
-	line-height: 25px;
-  }
-  body, .article {
-	font-size: 1rem;
-	line-height: 1.3888889rem;
-	max-width: 560px;
-	margin: auto;
-  }
-  h1, .h1 {
-	font-size: 4.2222222rem;
-	line-height: 5.5555556rem;
-	margin-top: 1.3888889rem;
-	margin-bottom: 2.7777778rem;
-  }
-  h2, .h2 {
-	font-size: 2.6111111rem;
-	line-height: 2.7777778rem;
-	margin-top: 1.3888889rem;
-	margin-bottom: 1.3888889rem;
-  }
-  h3, .h3 {
-	font-size: 1.6111111rem;
-	line-height: 2.7777778rem;
-	margin-top: 1.3888889rem;
-	margin-bottom: 0rem;
-  }
-  h4, .h4 {
-	font-size: 1rem;
-	line-height: 1.3888889rem;
-	margin-top: 1.3888889rem;
-	margin-bottom: 0rem;
-  }
-  h5, .h5 {
-	font-size: 1rem;
-	line-height: 1.3888889rem;
-	margin-top: 1.3888889rem;
-	margin-bottom: 0rem;
-  }
-  p, ul, ol, pre, table, blockquote {
-	margin-top: 0rem;
-	margin-bottom: 1.3888889rem;
-  }
-  ul ul, ol ol, ul ol, ol ul {
-	margin-top: 0rem;
-	margin-bottom: 0rem;
-  }
-  
-  /* Let's make sure all's aligned */
-  hr, .hr {
-	border: 1px solid;
-	margin: -1px 0;
-  }
-  a, b, i, strong, em, small, code {
-	line-height: 0;
-  }
-  sub, sup {
-	line-height: 0;
-	position: relative;
-	vertical-align: baseline;
-  }
-  sup {
-	top: -0.5em;
-  }
-  sub {
-	bottom: -0.25em;
-  }
 
 .loading {
 	animation-duration: 1s;

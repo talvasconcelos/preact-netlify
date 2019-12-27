@@ -3,7 +3,7 @@ title: O que é a Bitcoin
 date: 2019-11-19T18:36:19.745Z
 subtitle: O Bitcoin é uma moeda digital, criada em 2008 por um programador com pseudónimo de Satoshi Nakamoto. Denominado também por moeda digital descentralizada, ou seja, nenhuma entidade central controla, valida ou emite a moeda.
 cover: /assets/photo-1543699565-003b8adda5fc.jpg
-tags: lorem
+tags: bitcoin
 ---
 Bitcoin é uma rede que funciona de forma consensual onde foi possível criar uma nova forma de pagamento e também uma nova moeda completamente digital. É a primeira rede de pagamento descentralizada (ponto-a-ponto) onde os usuários é que gerem o sistema, sem necessidade de intermediários ou uma autoridade central. Da perspectiva do utilizador, a Bitcoin funciona como dinheiro para a Internet.
 
@@ -33,11 +33,15 @@ Pagamentos em Bitcoin são mais fáceis de fazer do que compras feitas com cart�
 
 - Grau de aceitação - Muitas pessoas ainda não têm conhecimento sobre Bitcoin ou pior, estão mal informadas. A cada dia, mais empresas aceitam bitcoin, porque acreditam nas vantagens ao fazê-lo, mas a lista continua pequena e ainda precisa crescer, a fim de beneficiar-se dos efeitos de rede.
 - Volatilidade - O valor total do número de bitcoins em circulação e o número de transacções que utilizam Bitcoin ainda é muito menor comparado ao que poderia ser. Portanto, eventos relativamente pequenos, trocas, ou actividades negociais podem afectar significativamente o seu preço. Em teoria, esta volatilidade irá diminuir a medida que o mercado da Bitcoin e a tecnologia amadurecerem.
+
 ### Posso confiar na Bitcoin
+
 Grande parte da confiança no Bitcoin vem do facto de que não exige nenhuma confiança em nada. A Bitcoin é totalmente open source e descentralizada. Isto significa que qualquer pessoa tem acesso ao código-fonte completo em qualquer ponto. Qualquer programador no mundo pode, portanto, verificar exactamente como funciona. Todas as transacções e bitcoins emitidos podem ser consultados de forma transparente em tempo real por qualquer pessoa. Todos os pagamentos podem ser feitos sem depender de terceiros e todo o sistema é fortemente protegido por revisão de algoritmos criptográficos, como os usados ​​para operações bancárias online. Nenhuma organização ou indivíduo pode controlar a Bitcoin, e a rede continua a ser segura, mesmo que nem todos os seus usuários possam ser confiáveis.
+
+---
 
 Receber um pagamento em Bitcoin é quase instantâneo. No entanto, há um atraso de 10 minutos, em média, antes que a rede comece a confirmar a transacção, incluindo-a num bloco e antes que possa gastar os bitcoins que recebeu. A confirmação significa que não há um consenso sobre a rede que os bitcoins que recebeu não foram enviados para qualquer outra pessoa e sejam considerados como sua propriedade. Uma vez que a transacção tenha sido incluída num bloco, ela continuará a ser propagada em cada bloco seguinte, que irá exponencialmente consolidar um consenso e diminuir o risco de uma reversão da transacção. Cada utilizador é livre para determinar em que ponto consideram uma transacção confirmada, mas seis confirmações é muitas vezes considerado tão seguro quanto esperar seis meses numa transacção com cartão de crédito.
 
 Ficaste com dúvidas ou queres saber mais? Deixa um comentário abaixo.
 
-Texto retirado e adaptado do site oficial da Bitcoin
+*Texto retirado e adaptado do site oficial da Bitcoin*

@@ -31,7 +31,7 @@ function getBlogsListing(data, isLoading) {
 				{blogs.edges.map(blog => (
 				<Link href={`/blog/${blog.id}`}>
 					<article>
-						<h2>{blog.details.title}</h2>
+						<h2 class='h3'>{blog.details.title}</h2>
 						<div>
 							{
 								(blog.details.tags.substr(1, blog.details.tags.length - 2).split(',') || []).map(tag => <span class={style.tag}>{tag}</span>)
