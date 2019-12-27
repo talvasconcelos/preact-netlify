@@ -3,7 +3,7 @@
 :root {
 	--primary-color: #ff533d;
 	--font-size: 18px;
-	--lh: 25px;
+	--lh: 30px;
 }
 
 * {
@@ -164,6 +164,6 @@ a:not(article) {
   }
   @media screen and (min-width: 998px) {
 	html {
-	  font-size: 22px;
+	  font-size: 20px;
 	}
   }
