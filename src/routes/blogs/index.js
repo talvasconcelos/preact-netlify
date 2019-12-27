@@ -7,7 +7,7 @@ const blogs = (props) => {
 	const [data, isLoading] = usePrerenderData(props);
 	return (
 		<div class={style.pageBlogs}>
-			<h1 class={style.pageTitle}>Artigos</h1>
+			<h2 class={style.pageTitle}>Artigos</h2>
 			{ getBlogsListing(data, isLoading) }
 		</div>
 	);
@@ -30,8 +30,8 @@ function getBlogsListing(data, isLoading) {
 			<>
 				{blogs.edges.map(blog => (
 				<Link href={`/blog/${blog.id}`}>
-					<article>
-						<h2 class='h3'>{blog.details.title}</h2>
+					<article class='article'>
+						<h3>{blog.details.title}</h3>
 						<div>
 							{
 								(blog.details.tags.substr(1, blog.details.tags.length - 2).split(',') || []).map(tag => <span class={style.tag}>{tag}</span>)

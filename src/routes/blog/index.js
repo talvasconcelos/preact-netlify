@@ -6,7 +6,7 @@ import style from './style';
 const blogs = (props) => {
 	const [data, isLoading] = usePrerenderData(props);
 	return (
-		<article class={style.blogcontainer}>
+		<article class={`article ${style.blogcontainer}`}>
 			{getBlogBody(data, isLoading)}
 		</article>
 	);
@@ -16,7 +16,7 @@ function getBlogBody(data, isLoading) {
 	if (isLoading) {
 		return (
 			<div class={style.loadingPlaceholder}>
-				<h1 class={`${style.blogtitle} loading`} >&nbsp;</h1>
+				<h2 class={`${style.blogtitle} loading`} >&nbsp;</h2>
 				<caption class={`${style.blogsubtitle} loading`}>&nbsp;</caption>
 				<div class={style.blogbody}>
 					<div class={`${style.loadingBody} loading`} />
@@ -31,8 +31,8 @@ function getBlogBody(data, isLoading) {
 		const { details, content } = data.data;
 		return (
 			<div>
-				<h1 class={style.blogtitle}>{details.title}</h1>
-				{ details.subtitle && <caption class={style.blogsubtitle}>{details.subtitle}</caption> }
+				<h2>{details.title}</h2>
+				{ details.subtitle && <p class={style.blogsubtitle}>{details.subtitle}</p> }
 				{ details.cover && <div class={style.blogcover} style={`background-image:url(${details.cover})`} /> }
 				<div class={style.blogbody}>
 					<Markdown>{ content.split(/---(.*(\r)?\n)*---/g)[3] /*hack for getting just content*/ }</Markdown>

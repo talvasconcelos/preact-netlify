@@ -1,8 +1,7 @@
 .blogcontainer {
-  max-width: 728px;
-  width: 100%;
+  max-width: 560px;
+  width: 90%;
   margin: 0 auto 10em;
-  line-height: 1.6rem;
 }
 
 .blogtitle {
@@ -13,7 +12,6 @@
 }
 
 .blogbody {
-  font-size: 1.1rem;
   margin-top: 1rem;
 }
 
@@ -40,6 +38,7 @@
 
 .blogcover {
   height: 30vh;
+  width: 100%;
   background-size: cover;
   background-color: #eee;
   background-position: center;
