@@ -6,7 +6,7 @@ import style from './style';
 const blogs = (props) => {
 	const [data, isLoading] = usePrerenderData(props);
 	return (
-		<article class={`article ${style.blogcontainer}`}>
+		<article class={`${style.blogcontainer}`}>
 			{getBlogBody(data, isLoading)}
 		</article>
 	);

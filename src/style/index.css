@@ -28,8 +28,7 @@ html,
 	height: 100%;
 }
 
-body,
-.article {
+body {
 	background: #FAFAFA;
 	font-family: 'Muli', sans-serif;
 	font-weight: 400;
