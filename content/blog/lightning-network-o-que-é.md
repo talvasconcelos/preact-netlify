@@ -1,5 +1,5 @@
 ---
-title: 'Lightning Network, o que é?'
+title: Lightning Network, o que é?
 date: 2019-12-27T18:04:29.110Z
 subtitle: Uma segunda camada, em cima da Bitcoin, que permite pagamentos instantâneos e practicamente sem fees.
 cover: /assets/ln_neon.jpg
@@ -13,7 +13,8 @@ intermediário ou depositário confiável. Existem, no entanto, algumas desvanta
 A Lightning Network resolve esses problemas. É uma das primeiras implementações de um contrato inteligente multipartidário (dinheiro programável) usando o script embutido do bitcoin. A Lightning Network lidera o desenvolvimento tecnológico em cálculos financeiros multipartidários com bitcoin. A criação e introdução da Lightning Network foi incentivada pelas limitações que, não só a Bitcoin, mas muitas outras criptomoedas enfrentam. Atualmente, a blockchain da Bitcoin é capaz de processar entre 2 e 7 transacções por segundo (TPS). Na medida em que o ecossistema das criptomoedas cresce e mais pessoas se juntam à rede, o número de transacções transmitidas para a blockchain também aumenta, tornando a rede cada vez mais congestionada. A performance geral fica comprometida, reduzindo drasticamente a usabilidade prática da Bitcoin como uma moeda digital global. Nesse contexto, o LN foi criado como uma tentativa de aliviar a congestão da blockchain da Bitcoin.
 
 ## Como funciona
-A base da Lightning Network são os canais de pagamento. Dois utilizadores fazem uma transacção multi-assinatura na blockchain (canal de pagamento) em que pelo menos uma delas envia fundos. Cada pessoa tem uma chave privada e cada transacção dentro desse canal só pode ser feita com a assinatura das duas partes. Um canal de pagamento leva cerca de 10 minutos a ser criado, pois é registado na blockchain. Quando estiver aberto, os participantes podem fazer as transacções que quiserem, de forma instantânea usando os fundos "presos" a esse canal. 
+
+A base da Lightning Network são os canais de pagamento. Dois utilizadores fazem uma transacção multi-assinatura na blockchain (canal de pagamento) em que pelo menos uma delas envia fundos. Cada pessoa tem uma chave privada e cada transacção dentro desse canal só pode ser feita com a assinatura das duas partes. Um canal de pagamento leva cerca de 10 minutos a ser criado, pois é registado na blockchain. Quando estiver aberto, os participantes podem fazer as transacções que quiserem, de forma instantânea usando os fundos "presos" a esse canal.
 
 As transacções na rede Bitcoin (on-chain) são válidas desde que sejam emitidas para a rede e incluídas num dos blocos minados. No caso da Lightning Network, as transacções emitidas dentro do canal não são emitidas directamente para a blockchain. Isto só acontece quando os participantes decidirem fechar o canal e aí é emitido para a rede o saldo final de ambos os participantes. As transacções dentro da LN, ou do canal de pagamento são chamadas off-chain.
 
@@ -24,6 +25,7 @@ Após cada transação, ambos os participantes assinam e actualizam as suas pró
 Resumindo, os participantes envolvidos só precisam interagir duas vezes com a blockchain da Bitcoin. Uma para abrir o canal de pagamento e outra para fechar, o que significa que todas as outras transações, que são executadas dentro do canal (off-chain), não interagem diretamente com a rede principal.
 
 ## Vantagens da Lightning Network
+
 - __Pagamentos instantâneos:__ possibilidade de efetuar pagamentos imediatos sem se preocupar com os tempos de confirmação.
 
 - __Escalabilidade:__ capacidade de processar milhões de transacções por segundo, a custos muito baixos por serem efectuadas fora da rede principal.
@@ -31,4 +33,3 @@ Resumindo, os participantes envolvidos só precisam interagir duas vezes com a b
 - __Micro pagamentos:__ a LN permite transacções tão pequenas quanto 1 satoshi (a unidade do Bitcoin). Por exemplo enviar 0.10€ como agradecimento por um post para alguém do outro lado do mundo.
 
 ***
-
