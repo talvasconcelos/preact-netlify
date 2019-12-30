@@ -1,7 +1,9 @@
 ---
-title: Lightning Network, o que é?
+title: 'Lightning Network, o que é?'
 date: 2019-12-27T18:04:29.110Z
-subtitle: Uma segunda camada, em cima da Bitcoin, que permite pagamentos instantâneos e practicamente sem fees.
+subtitle: >-
+  Uma segunda camada, em cima da Bitcoin, que permite pagamentos instantâneos e
+  practicamente sem fees.
 cover: /assets/ln_neon.jpg
 tags: 'bitcoin,lightning network'
 ---
